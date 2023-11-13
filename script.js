@@ -38,3 +38,14 @@ function calculateAge() {
     .addEventListener("input", calculateAge);
   document.getElementById("year-input").addEventListener("input", calculateAge);
 }
+
+function isValidDate(year, month, day) {
+  const inputDate = new Date(`${year}-${month}-${day}`);
+  const currentDate = new Date();
+
+  return !isNaN(inputDate.getTime()) && inputDate <= currentDate;
+}
+
+document
+  .getElementById("submit-button")
+  .addEventListener("click", calculateAge);
