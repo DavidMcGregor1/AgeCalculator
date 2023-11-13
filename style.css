@@ -1,0 +1,25 @@
+body {
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-white-box {
+    padding: 5%;
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    border-radius: 30px 30px 140px 30px; /* top-left, top-right, bottom-right, bottom-left */
+
+}
+
+.day-month-year-container {
+    width: 80%;
+    height: 100px;
+    margin-bottom: 5%;
+    display: flex;
+    gap: 110px;
+}
