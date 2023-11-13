@@ -7,6 +7,17 @@ body {
     margin: 0;
 }
 
+
+@font-face {
+    font-family: 'bold-font';
+    src: url('./fonts/Poppins-Bold.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'regular-font';
+    src: url('./fonts/Poppins-Regular.ttf') format(truetype);
+}
+
 .main-white-box {
     padding: 5%;
     background-color: white;
