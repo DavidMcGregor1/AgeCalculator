@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="style.css">
+  <title>Age Calculator</title>
 </head>
 <body>
 
-    <h1>Test</h1>
+
+
+ <div class="main-white-box">
+  <h1 id="header">Age Calculator</h1>
+  <div class="day-month-year-container">
+    <div class="dob-input-container">
+      <label for="day-input">D A Y</label>
+    <input id="day-input" class="input-boxes" type="number" placeholder="DD">
+    </div>
+
+    <div class="dob-input-container">
+      <label for="month-input">M O N T H</label>
+    <input id="month-input" class="input-boxes" type="number" placeholder="MM">
+    </div>
+
+    <div class="dob-input-container">
+      <label for="years-input">Y E A R</label>
+    <input id="year-input" class="input-boxes" type="number" placeholder="YYYY">
+    </div>
+
+    <div class="button-container">
+      <button id="submit-button">Submit</button>
+    </div>
     
+  </div>
+  <div class="line"></div>
+  <div class="big-words-container">
+    <h2 id="years-text" class="big-text"><span class="purple-text">--</span> years</h2>
+    <h2 id="months-text" class="big-text"><span class="purple-text">--</span> months</h2>
+    <h2 id="days-text" class="big-text"><span class="purple-text">--</span> days</h2>
+    <p id="errorText" class="error-text"></p>
+  </div>
+ </div>
+  
+  <script src="script.js"></script>
 </body>
 </html>
